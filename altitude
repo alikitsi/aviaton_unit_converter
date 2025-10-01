@@ -1,0 +1,11 @@
+altitude = input('enter altitude: ')
+altitude = float(altitude)
+
+unit = input('is this in cm or ft? ')
+if input == 'cm' :
+    altitude_converted = altitude * 0.0328084
+
+else:
+    altitude_converted = altitude * 30.48
+
+print(f'altitude is {altitude_converted:.2f} in {unit}')
