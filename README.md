@@ -1,2 +1,6 @@
 # aviaton_unit_converter
-the ultimate unit converter for aviaton
+this is a basic python converter for units used in aviaton
+
+features:
+-converts altitude beetwen feet and meters
+-
