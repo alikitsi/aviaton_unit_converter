@@ -1,6 +1,5 @@
 # aviaton_unit_converter
-this is a basic python converter for units used in aviaton
-
+this is a basic python converter for commonly used units in aviaton
 features:
--converts altitude beetwen feet and meters
--
+  altitude converter m,feet
+  speed converter km/h,mph,knots
