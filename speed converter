@@ -48,3 +48,4 @@ elif unit == 'knots':
 
 else:
     print('please enter a number')
+    exit()
