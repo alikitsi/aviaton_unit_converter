@@ -1,0 +1,50 @@
+speed = float(input('enter speed: '))
+
+
+unit = input('which unit is this in? (knots,mph,km/h) ')
+
+if unit == 'knots' :
+    unit_con = input('which unit do you need this in? (km/h or mph?)')
+
+    if unit_con == 'km/h':
+
+        converted_speed = speed * 1.852
+        print(f'{converted_speed:.5} km/h')
+
+    elif unit_con == 'mph' :
+        converted_speed = speed * 1.15078
+        print(f'{converted_speed:.5} mph')
+
+    else:
+        print('please enter a valid unit')
+
+elif unit == 'mph':
+    unit_con = input('which unit do you need this in? (knots or km/h?)')
+
+    if unit_con == 'knots':
+        converted_speed = speed * 0.868976
+        print(f'{converted_speed:.5} knots')
+
+    elif unit_con == 'km/h':
+        converted_speed = speed * 1.60934
+        print(f'{converted_speed:.5} km/h')
+
+    else:
+        print('please enter a valid unit')
+
+elif unit == 'knots':
+    con_unit = input('which unit do you need this in? (km/h or mph)')
+    if con_unit == 'km/h':
+        converted_speed = speed * 1.852
+        print(f'{converted_speed:.5} km/h')
+
+    elif con_unit == 'mph':
+        converted_speed = speed * 1.15078
+        print(f'{converted_speed:.5} mph')
+
+    else:
+        print('please enter a valid unit')
+        exit()
+
+else:
+    print('please enter a number')
