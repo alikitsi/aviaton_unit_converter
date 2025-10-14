@@ -2,7 +2,7 @@ altitude = input('enter altitude: ')
 altitude = float(altitude)
 
 unit = input('is this in m or ft? ')
-if input == 'm' :
+if unit == 'm' :
     altitude_converted = altitude * 3.28084
 
 else:
